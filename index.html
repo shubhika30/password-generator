@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>PASSWORD GENERATOR</h1>
+    </div>
+    <div class="out">
+        <input class = "out-box" type="text" placeholder="password generated" readonly>
+    </div>
+    <div class="gen-button">
+        <button class = "gen-but">Generate Password</button>
+    </div>
+    <div class="length">
+        <h4 class ="length-head">Enter the length of the password you need.</h4>
+    </div>
+    <div class="inp">
+        <input class="input-len" type="range" min="1" max="8" value="4">
+        <span>4</span>
+    </div>
+    <!--now we will add a checkbox for different features that we will be providing to the password-->
+    <div class="choose">
+        <h4>Choose the characteristics you want in your password.</h4>
+    </div>
+    <form class="options" id="myform">
+    <label for = "id1">
+        <input type="checkbox" name="option" value="a-z" id="id1">a-z
+    </label><br>
+
+    <label for = "id2">
+        <input type="checkbox"  name="option" value="A-Z" id="id2">A-Z
+    </label><br>
+
+    <label for = "id3">
+        <input type="checkbox"  name="option" value="1-9" id="id3">1-9
+    </label><br>
+
+    <label for = "id4">
+        <input type="checkbox"  name="option" value="!@#$" id="id4">!@#$
+    </label><br>
+    </form>
+    <div class="end">
+        <h3 class ="instruction">
+            Enter the length of the password and select the features you would like in your password.
+        </h3>
+        <h3 class="instruction2">
+            Now click generate password and you will get a new and difficult to guess password.
+        </h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

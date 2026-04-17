@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B7CFDC;
+}
+
+.head{
+    background-color: #385e72;
+    color: #d9e4ec;
+    text-align: center;
+    height: 2.5rem;
+    font-size: 20px;
+}
+
+.out{
+    padding-top: 4rem;
+    padding-left: 800px;
+}
+
+.out-box{
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    padding-right: 200px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.gen-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+
+.gen-but{
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: #6AABD2;
+    border-radius: 6px;
+    height: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.length{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.length-head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.inp{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 250px;
+}
+
+.input-len{
+    height: 25px;
+    padding-right: 6px;
+    border-radius: 5px;
+}
+
+.choose{
+    margin-left: 1100px;
+    font-size: 30px;
+    margin-top: -80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.options{
+    margin-left: 1100px;
+    margin-top: 20px;
+}
+
+#id2{
+    margin-top: 10px;
+}
+
+#id3{
+    margin-top: 10px;
+}
+
+#id4{
+    margin-top: 10px;
+}
+
+#myform{
+    font-size: 20px;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+button {
+    cursor: pointer;
+}
+
+.end{
+    margin-top: 200px;
+    background-color: #D9E4EC;
+    height:400px;
+    text-align: center;
+}
+.instruction{
+    padding-top: 4rem;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.instruction2{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+span{
+    background-color:#D9E4EC;
+    padding: 5px;
+    margin-left: 15px;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 768px) {
+  /* mobile styles */
+}
